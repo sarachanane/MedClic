@@ -1,0 +1,32 @@
+{
+  "name": "medclic",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3007",
+    "build": "next build",
+    "start": "next start --port 3007",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mapbox/mapbox-gl-draw": "^1.5.0",
+    "@nextui-org/react": "^2.6.11",
+    "flowbite": "^3.1.2",
+    "framer-motion": "^11.2.11",
+    "lottie-react": "^2.4.0",
+    "lucide-react": "^0.517.0",
+    "mapbox-gl": "^3.9.2",
+    "mongoose": "^8.12.2",
+    "next": "^14.2.4",
+    "next-auth": "^4.24.11",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hot-toast": "^2.4.1",
+    "recharts": "^2.15.3",
+    "remixicon": "^4.6.0"
+  },
+  "devDependencies": {
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}

@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-1:#329cde;
+  --secondry-1:#d5e9f6;
+  --secondry-11:#E8F3F1;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+
+.bg-primary-1{
+  background: var(--primary-1);
+}
+.text-primary-1{
+  color: var(--primary-1);
+}
+.border-primary-1{
+  border:1px solid var(--primary-1);
+}
+.border-primary-1{
+  border: 1px solid var(--primary-1);
+}
+.border-primary-1-hover:hover{
+  border: 1px solid var(--primary-1);
+}
+
+.bg-secondry-1{
+  background: var(--secondry-1);
+}
+
+.loading-circul {
+  @apply inline-block h-5 w-5 mr-2 animate-spin rounded-full border-2 border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite] transition ease-in-out duration-200;
+}
+
+
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
